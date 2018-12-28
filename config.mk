@@ -76,6 +76,10 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
 endif
 
+# Weather
+PRODUCT_PROPERTY_OVERRIDES += \
+    ros.revolution.weather.revision=2
+
 # Include package overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/pixelstyle/overlay
 DEVICE_PACKAGE_OVERLAYS += \
