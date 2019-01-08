@@ -21,10 +21,10 @@ PRODUCT_PACKAGES += \
     MarkupGoogle \
     WeatherClient
 
-ifeq ($(TARGET_GAPPS_ARCH),arm64)
-PRODUCT_PACKAGES += \
-    MatchmakerPrebuilt
-endif
+#ifeq ($(TARGET_GAPPS_ARCH),arm64)
+#PRODUCT_PACKAGES += \
+#    MatchmakerPrebuilt
+#endif
 
 TARGET_MINIMAL_APPS ?= false
 
