@@ -32,7 +32,6 @@ LOCAL_SRC_FILES := SoundPickerPrebuilt/SoundPickerPrebuilt_old.apk
 LOCAL_CERTIFICATE := platform
 else
 LOCAL_SRC_FILES := SoundPickerPrebuilt/SoundPickerPrebuilt.apk
-endif
 LOCAL_CERTIFICATE := PRESIGNED
 endif
 LOCAL_MODULE_CLASS := APPS
@@ -49,3 +48,4 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
+
